@@ -38,5 +38,8 @@
 	"remoteUser": "root",
 	"containerEnv": {
 		"DOCKER_BUILDKIT": "0"
+	},
+	"remoteEnv": {
+    		"DOCKER_BUILDKIT": "0"
 	}
 }
