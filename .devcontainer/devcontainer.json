@@ -35,17 +35,16 @@
 	// "postCreateCommand": "go version",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	"remoteUser": "root",
-	"containerEnv": {
-		"DOCKER_BUILDKIT": "0"
-	},
-	"remoteEnv": {
-    		"DOCKER_BUILDKIT": "0"
-	},
-	"build": {
-		"args": {
-		  "DOCKER_BUILDKIT": "0"
-		}
-	}
-}
+	"remoteUser": "root"
+	// "containerEnv": {
+	// 	"DOCKER_BUILDKIT": "0"
+	// },
+	// "remoteEnv": {
+    // 		"DOCKER_BUILDKIT": "0"
+	// },
+	// "build": {
+	// 	"args": {
+	// 	  "DOCKER_BUILDKIT": "0"
+	// 	}
+	// }
 }
