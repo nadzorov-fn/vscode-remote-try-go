@@ -41,5 +41,9 @@
 	},
 	"remoteEnv": {
     		"DOCKER_BUILDKIT": "0"
+	},
+	"build.args": {
+		"DOCKER_BUILDKIT": "0"
 	}
+}
 }
